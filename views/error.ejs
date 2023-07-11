@@ -1,0 +1,17 @@
+
+<!-- error.ejs, Balkesa Azimi-301296835  Date: Sunday, June 4, 2023-->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<div class="container">
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+</div>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
